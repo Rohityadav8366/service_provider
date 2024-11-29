@@ -7,7 +7,7 @@ public class ServiceController {
 	
 	@GetMapping("/home")
     public String homePage() {
-        // Returning the name of the Thymeleaf template (base.html will be extended by other templates)
+
         return "base";
     }
 }
